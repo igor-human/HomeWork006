@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using Task_02;
 
 
 namespace _005_Book
@@ -15,7 +16,9 @@ namespace _005_Book
     {
         static void Main(string[] args)
         {
+            FindAndReplaceManager.FindNext("слово");
 
+            Console.ReadLine();
         }
     }
 }
